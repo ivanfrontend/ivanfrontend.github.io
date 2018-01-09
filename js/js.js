@@ -1,9 +1,9 @@
 
 
 $(document).ready(function(){
-    $(".strelki").on("click","a", function (event) {
+    $(".strelki").on("click","a", function () {
         //отменяем стандартную обработку нажатия по ссылке
-        event.preventDefault();
+       
 
         //забираем идентификатор бока с атрибута href
         var id  = $(this).attr('href'),
@@ -16,9 +16,9 @@ $(document).ready(function(){
     });
 });
 $(document).ready(function(){
-    $("li").on("click","a", function (event) {
+    $("li").on("click","a", function () {
         //отменяем стандартную обработку нажатия по ссылке
-        event.preventDefault();
+        
 
         //забираем идентификатор бока с атрибута href
         var id  = $(this).attr('href'),
